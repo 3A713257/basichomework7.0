@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() 
+{
+	int a,ttl,num;
+	printf("Show the sum of 1+2+3+...+n\n");
+	printf("n = ");
+	scanf("%d",&num);
+	for(int a=1;a <= num ; a++)
+	ttl+=a;
+	printf("1+2+3+...+%d = %d\n",num,ttl);
+	
+	system ("pause");
+	return 0;
+}
